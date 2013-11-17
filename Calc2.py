@@ -58,9 +58,6 @@ def complete_sum(s):
     else:
         return 'error'
 
-sum_ = input("What sum do you want doing?")
-
-print(complete_sum(sum_))
 
 def shush_robie():
     answer = input('Will that do? (Answer y/n)').lower()
@@ -72,4 +69,7 @@ def shush_robie():
         print ("You didn't pick y or n! Try again.")
 
 
+if __name__ == '__main__':
+    sum_ = input("What sum do you want doing?")
+    print(complete_sum(sum_))
 
