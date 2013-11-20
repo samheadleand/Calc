@@ -13,6 +13,9 @@ import Calc2
     ('5+7-2', 10), # 2 3
     ('6+2=', 8), # 3 1
     ('1+2*3', 7), # 5 5
+    ('2++5', 7),
+    ('4--2', 6),
+    ('1.5+1.5', 3),
 ])
 
 # Ordering: Importance (1 Important, 5 Unimportant)
